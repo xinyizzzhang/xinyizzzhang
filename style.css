@@ -424,3 +424,6 @@ li a:hover {
     line-height: 24px;
     color: #a0a8b0;
 }
+.fa:hover {
+    opacity: 0.5;
+}
