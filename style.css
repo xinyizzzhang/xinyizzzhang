@@ -55,19 +55,18 @@ table {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
 }
 
 a {
     text-decoration: none;
-    color: #49bf9d;
+    color: #49c0ec;
 }
 
 a:hover {
     text-decoration: none;
-    border-bottom: 1px solid #a4dfce;
-    text-decoration-color: 
+    border-bottom: 1px solid #49c0ec30;
 }
 
 i {
@@ -276,7 +275,7 @@ ul {
 }
 
 .research-proj p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: #a0a8b0;
 }
@@ -345,9 +344,10 @@ li a {
 .content{
     margin-bottom: 20px;
 }
-.content p{
+.content p {
     margin-left: 30px;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .content h2 {
