@@ -66,7 +66,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    border-bottom: 1px solid #49c0ec30;
+    border-bottom: 1px solid #49c0ec35;
 }
 
 i {
@@ -324,10 +324,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 63px;
     /*position: -webkit-sticky;*/ /* Safari */
     /* position: sticky; */
     top: 0;
     border-bottom: 1px solid #ddd;
+
 }
 li {
   float: left;
@@ -341,6 +343,9 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+    text-decoration: none;
+}
 .content{
     margin-bottom: 20px;
 }
@@ -367,3 +372,54 @@ li a {
     margin-bottom: 20px;
 }
 
+.post-proj {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.post-thumb {
+    width: 180px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-bottom: none;
+}
+
+.post-thumb:hover {
+    border-bottom: none;
+}
+
+.post-thumb img {
+    width: 100%;
+    /*border: 1px solid #191e3f;*/
+}
+
+.post-proj-desc {
+    width: 690px;
+    float: left;
+}
+
+.post-proj h2 {
+    color: #191e3f;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.post-proj h2 a {
+    color: #191e3f;
+}
+
+.post-proj h2 a:hover {
+    border-bottom: 1px solid #191e3f;
+}
+
+.post-proj p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #a0a8b0;
+}
