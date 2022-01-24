@@ -319,8 +319,11 @@ ul {
 body {
   font-size: 28px;
 }
-
-ul {
+.navibar {
+    /* padding: 30px 0px 15px 30px; */
+    /* border-bottom: 1px solid #ddd; */
+}
+.navibar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -332,10 +335,10 @@ ul {
     border-bottom: 1px solid #ddd;
 
 }
-li {
+.navibar li {
   float: left;
 }
-li a {
+.navibar li a {
   display: block;
   color: #a0a8b0;
   font-size: 17px;
@@ -344,7 +347,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navibar li a:hover {
     text-decoration: none;
 }
 .content{
