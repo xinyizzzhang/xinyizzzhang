@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-My website is moved to https://xinyizzzhang.github.io/
+My website is https://xinyiz0931.github.io/
