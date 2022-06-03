@@ -46,7 +46,7 @@ table {
 }
 
 #body{
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 #main {
@@ -88,6 +88,10 @@ h1 {
     height: 100px;
     border-bottom: 1px solid #ddd;
 }
+/*************************************************
+
+/**************************************************/
+
 
 /**************************************************/
 
@@ -264,7 +268,7 @@ ul {
 .research-proj h2 {
     color: #191e3f;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
 }
 
 .research-proj h2 a {
@@ -276,8 +280,8 @@ ul {
 }
 
 .research-proj p {
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 24px;
     color: #a0a8b0;
 }
 
@@ -328,7 +332,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 63px;
+    height: 50px;
     /*position: -webkit-sticky;*/ /* Safari */
     /* position: sticky; */
     top: 0;
@@ -337,9 +341,9 @@ body {
 }
 .navibar li {
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  margin: 20px auto 20px 20px;
+  margin: 12px auto 20px 40px;
 }
 .navibar li a {
   display: block;
