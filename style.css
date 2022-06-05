@@ -351,6 +351,10 @@ body {
   
   text-decoration: none;
 }
+.navibar p {
+    color: #191e3f;
+    font-size: 16px;
+}
 
 .navibar li a:hover {
     text-decoration: none;
