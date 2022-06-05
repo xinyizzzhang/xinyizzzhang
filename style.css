@@ -324,7 +324,18 @@ body {
   font-size: 28px;
 }
 .navibar {
-    /* padding: 30px 0px 15px 30px; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60px;
+    /*position: -webkit-sticky;*/ /* Safari */
+    /* position: sticky; */
+    top: 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    /* margin: 12px 20px 20px 40px; */
+    /* padding: 5px 5px 5px 5px; */
     /* border-bottom: 1px solid #ddd; */
 }
 .navibar ul {
@@ -332,7 +343,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 50px;
+    height: 60px;
     /*position: -webkit-sticky;*/ /* Safari */
     /* position: sticky; */
     top: 0;
@@ -341,24 +352,19 @@ body {
 }
 .navibar li {
   float: left;
-  /* font-size: 16px; */
+  font-size: 18px;
   text-align: center;
   margin: 12px auto 20px 40px;
 }
 .navibar li a {
   display: block;
   color: #a0a8b0;
-  
   text-decoration: none;
 }
 .navibar p {
-    color: #191e3f;
-    font-size: 16px;
+    margin: 15px auto 20px auto; 
 }
 
-.navibar li a:hover {
-    text-decoration: none;
-}
 .content{
     margin-bottom: 20px;
 }
