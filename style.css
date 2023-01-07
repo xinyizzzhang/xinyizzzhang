@@ -132,7 +132,7 @@ li {
 /**************************************************/
 
 .project{
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .project p {
     margin-left: 30px;
@@ -162,7 +162,13 @@ li {
     text-align: center;
 }
 .project .video iframe {
+    width: 640px;
+    height: 360px;
     margin-left: 30px;
+}
+.project .video video {
+    margin-left: 30px;
+    width: 640px;
 }
 .twocol {
     width: 420px;
@@ -192,18 +198,17 @@ li {
 .threecol p {
     margin-left: 0px;
     text-align: center;
-
 }
 .project .teaser {
     width: 40%;
     float: right;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 10px;
     margin-right: 20px;
 }
 .project .teaser img {
     width: 100%;
-    border: 2px solid; 
+    border: 1px solid; 
     border-color: #191e3f;;
 
 }
@@ -214,7 +219,7 @@ li {
     margin-bottom: 10px;
     margin-right: 10px;
 
-    border: 2px solid; 
+    border: 1px solid; 
     border-color: #191e3f;;
 }
 
@@ -222,6 +227,7 @@ li {
     text-align: center;
 }
 .project img {
+    margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
     width: 80%;
