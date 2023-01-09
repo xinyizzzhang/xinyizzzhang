@@ -52,7 +52,7 @@
                 <p>Latest version: <a href="http://arxiv.org/abs/2112.05941" target="_blank">arXiv</a></p>
                 <!-- <p>IEEE Robotics and Automation Letters (RA-L) / ICRA 2023</p> -->
                 <div class="thumb">
-                    <img src="media/aspnet/thumbnal.jpg" alt="" />
+                    <img src="media/tangle/thumbnal.jpg" alt="" />
                 </div>
 
                 <p>
@@ -63,7 +63,7 @@
             <div class="section project">
                 <h1>Supplementary Video</h1>
                 <div class="section video">
-                    <iframe src="https://www.youtube.com/embed/YoOiTp9HEY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/jEMzOXxnVyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="divider"></div>
@@ -90,8 +90,8 @@
 
             <div class="divider"></div>
             <div class="section project">
-                :wanweiwei07
-                <p>PickNet outputs two heatmaps: PickMap and SepMap, respectively indicate the grasp affordance of isolated or tangled objects in the clutter. </p>
+                <h1>Results of planning pulling actions using SepNet</h1>
+                <p>We rotate the input depth images for 8 angles representing 8 directions of pulling (pointing to the right). We select the one with the highest values among the SepNet outputs (PullMaps). </p>
                 <div class="image">
                     <img width="10%" src="media/tangle/vis_sepnet.jpg" alt="" />
                 </div>
@@ -121,8 +121,8 @@
             <div style="clear:both;"></div>
             <div class="divider"></div>
             <div class="section project">
-                <h1>Video: Dropping entangled parts in an extra bin to separate. </h1>
-                <p>The following videos show the robot picks and separates both seen and unseen parts. </p>
+                <h1>Separation strategy 1: Dropping entangled parts in an extra bin to separate. </h1>
+                <p>The following videos show the robot drops the entangled parts. </p>
                 <div class="section threecol">
                     <video playsinline="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/drop_seen_obj1.mp4" type="video/mp4">
@@ -161,8 +161,8 @@
 
 
             <div class="section project">
-                <h1>Video: Using pulling to disentangle various parts. </h1>
-                <p>The following videos show the robot picks and separates both seen and unseen parts. </p>
+                <h1>Separation stragegy 2: Pulling to disentangle various parts. </h1>
+                <p>The following videos show the robot untangles the parts by pulling combined with wiggling. </p>
                 <div class="section threecol">
                     <video playsinline="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/pull_seen_obj1.mp4" type="video/mp4">
