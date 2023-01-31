@@ -43,7 +43,7 @@
                 <span class="teaser">
                     <img src="media/tangle/teaser.jpg" alt="" />
 				</span>
-                <p>Robotic bin picking tasks for tangled-prone parts requires the robot to either lift the untangled objects or perform singulation manipulation when untangled objects do not exist. It is a challenging task due to the high-occluded scenes, elusive entanglement phenomena and skilled manipulation planning. The robot is also required to flexibly select suitable actions for the current observation. In this paper, we propose an autonomous, effective and generative approach for picking up tangled-prone objects in robotic bin picking. First, we learn a network to decide if the bin contains untangled objects and predict the grasp point for picking. If there are no such objects, we then learn a network to plan motions to separate them. Finally, we propose to transport the tangled objects from dense clutter to a transition area to reduce the degree of entanglement. Moreover, we embrace the self-supervised learning paradigm using a physics simulator. Results show a significant improvement in various bin picking tasks over baseline methods. </p>
+                <p>Industrial bin picking for tangled-prone objects requires the robot to either pick up untangled objects or perform separation manipulation when the bin contains no isolated objects. The robot must be able to flexibly perform appropriate actions based on the current observation. It is challenging due to high occlusion in the clutter, elusive entanglement phenomena, and the need for skilled manipulation planning. In this paper, we propose an autonomous, effective and general approach for picking up tangled-prone objects for industrial bin picking. First, we learn PickNet - a network that maps the visual observation to pixel-wise possibilities of picking isolated objects or separating tangled objects and infers the corresponding grasp. Then, we propose two effective separation strategies: Dropping the entangled objects into a buffer bin to reduce the degree of entanglement; Pulling to separate the entangled objects in the buffer bin planned by PullNet - a network that predicts position and direction for pulling from visual input. To efficiently collect data for training PickNet and PullNet, we embrace the self-supervised learning paradigm using an algorithmic supervisor in a physics simulator. Real-world experiments show that our policy can dexterously pick up tangled-prone objects with success rates of 90%. We further demonstrate the generalization of our policy by picking a set of unseen objects. </p>
             </div>
             
             <div class="divider"></div>
@@ -91,8 +91,8 @@
 
             <div class="divider"></div>
             <div class="section project">
-                <h1>Results of planning pulling actions using SepNet</h1>
-                <p>We rotate the input depth images for 8 angles representing 8 directions of pulling (pointing to the right). We select the one with the highest values among the SepNet outputs (PullMaps). </p>
+                <h1>Results of planning pulling actions using PullNet</h1>
+                <p>We rotate the input depth images for 8 angles representing 8 directions of pulling (pointing to the right). We select the one with the highest values among the PullNet outputs (PullMaps). </p>
                 <div class="image">
                     <img width="10%" src="media/tangle/vis_sepnet.jpg" alt="" />
                 </div>
@@ -203,8 +203,8 @@
 
 
             <div class="section project">
-                <h1>Video: SepNet can plan pulling actions for various patterns of entanglement. </h1>
-                <p>We test SepNet using different patterns of the entanglement in the intermediate bin. </p>
+                <h1>Video: PullNet can plan pulling actions for various patterns of entanglement. </h1>
+                <p>We test PullNet using different patterns of the entanglement in the intermediate bin. </p>
                 <div class="section twocol">
                     <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/sepnet_seen.mp4" type="video/mp4">
