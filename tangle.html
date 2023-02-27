@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -81,7 +81,7 @@
 
             <div class="divider"></div>
             <div class="section project">
-                <h1>Results of predicting isolated/tangled parts using PickNet</h1>
+                <h1>Results of predicting isolated/tangled objects using PickNet</h1>
                 <p>PickNet outputs two heatmaps: PickMap and SepMap, respectively indicate the grasp affordance of isolated or tangled objects in the clutter. </p>
                 <div class="image">
                     <img src="media/tangle/vis_picknet.jpg" alt="" />
@@ -105,24 +105,22 @@
                     <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/data_picknet.mp4" type="video/mp4">
                     </video>
-                    <p>Picking isolated parts</p>
+                    <p>Picking isolated objects</p>
                 </div>
                 <div class="section threecol">
                     <video playsinline="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/data_sepnet.mp4" type="video/mp4">
                     </video>
-                    <p>Pulling to separate entangled parts</p>
+                    <p>Pulling to separate entangled objects</p>
                 </div>
             </div>
-
-
 
 
             <div style="clear:both;"></div>
             <div class="divider"></div>
             <div class="section project">
-                <h1>Separation strategy 1: Dropping entangled parts in an extra bin to separate. </h1>
-                <p>The following videos show the robot drops the entangled parts. </p>
+                <h1>Separation strategy 1: Dropping entangled objects in a buffer bin to separate. </h1>
+                <p>The following videos show the robot dropping the entangled objects in the buffer bin. </p>
                 <div class="section threecol">
                     <video playsinline="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/drop_seen_obj1.mp4" type="video/mp4">
@@ -161,8 +159,8 @@
 
 
             <div class="section project">
-                <h1>Separation stragegy 2: Pulling to disentangle various parts. </h1>
-                <p>The following videos show the robot untangles the parts by pulling combined with wiggling. </p>
+                <h1>Separation stragegy 2: Pulling to disentangle various objects. </h1>
+                <p>The following videos show the robot untangles the objects by pulling combined with wiggling. </p>
                 <div class="section threecol">
                     <video playsinline="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/pull_seen_obj1.mp4" type="video/mp4">
@@ -203,7 +201,7 @@
 
             <div class="section project">
                 <h1>Video: PullNet can plan pulling actions for various patterns of entanglement. </h1>
-                <p>We test PullNet using different patterns of the entanglement in the intermediate bin. </p>
+                <p>We test PullNet using different patterns of the entanglement in the buffer bin. </p>
                 <div class="section twocol">
                     <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
                         <source src="media/tangle/sepnet_seen.mp4" type="video/mp4">
