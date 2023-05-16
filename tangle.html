@@ -64,7 +64,8 @@
             <div class="section project">
                 <h1>Supplementary Video</h1>
                 <div class="section video">
-                    <iframe src="https://www.youtube.com/embed/O0y-Scp4wqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe src="https://www.youtube.com/embed/O0y-Scp4wqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <iframe src="https://www.youtube.com/embed/lFA5uOMJkdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="divider"></div>
@@ -72,7 +73,7 @@
             <div class="section project">
                 <h1>Demonstration video: emptying a bin using our policy</h1>
                 <div class="section video">
-                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width=640px>
                         <source src="media/tangle/empty_the_bin_u_bolt.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -94,27 +95,40 @@
                 <h1>Results of planning pulling actions using PullNet</h1>
                 <p>We rotate the input depth images for 8 angles representing 8 directions of pulling (pointing to the right). We select the one with the highest values among the PullNet outputs (PullMaps). </p>
                 <div class="image">
-                    <img width="10%" src="media/tangle/vis_sepnet.jpg" alt="" />
+                    <img width="10%" src="media/tangle/vis_picknet_pullnet.jpg" alt="" />
                 </div>
             </div>
 
             <div class="divider"></div>
+                    
             <div class="section project">
-                <h1>Video: Data collection in simulation</h1>
-                <p>The following videos show the demonstrations for data collection in a phyics simulator. </p>
-                <div class="section threecol">
-                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
-                        <source src="media/tangle/data_picknet.mp4" type="video/mp4">
+                <h1>Data collection in simulation</h1>
+                <p>Simulated picking demonstration using various objects</p>
+                <div class="section video">
+                    <video width=890px playsinline="" muted="" autoplay="" loop="">
+                        <source src="media/tangle/sim_dropping.mp4" type="video/mp4">
                     </video>
-                    <p>Picking isolated objects</p>
                 </div>
-                <div class="section threecol">
-                    <video playsinline="" muted="" autoplay="" loop="" width="">
-                        <source src="media/tangle/data_sepnet.mp4" type="video/mp4">
+                <p>The following videos show the demonstrations for data collection in a phyics simulator. </p>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/tangle/sim_picking.mp4" type="video/mp4">
                     </video>
-                    <p>Pulling to separate entangled objects</p>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/tangle/sim_pulling.mp4" type="video/mp4">
+                    </video>
+                </div>
+            <div style="clear:both;"></div>
+            <div class="section project">
+                <p>The following figures shows the ground-truth of PickNet/PullNet data. </p>
+                <div class="image">
+                    <img width=700px src="media/tangle/data_gt.jpg" alt="" />
                 </div>
             </div>
+            </div>
+
 
 
             <div style="clear:both;"></div>
