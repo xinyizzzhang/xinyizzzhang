@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89797207-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-89797207-1');
+        </script>
+        <title>Learning to Dexterously Pick or Separate Tangled-Prone Objects for Industrial Bin Picking</title>
+        <link rel="icon" href="media/favicon.ico">
+        <link rel="shortcut icon" href="media/favicon.ico">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1000">
+        <link rel="stylesheet" href="https://use.typekit.net/quv7bsd.css"> <!-- fonts -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="http://andyzeng.github.io/style.css" /> -->
+    </head>
+
+    <body id="body">
+        <div id="main"> 
+            <div class="section navibar">
+            </div>
+
+
+            <div class="section project">
+                <h1>A Closed-Loop Bin Picking System for Entangled Wire Harnesses using Bimanual and Dynamic Manipulation</h1>
+                <p><a href="http://xinyiz0931.github.io/">Xinyi Zhang<sup>1</sup></a>,
+                    Yukiyasu Domae<sup>2</sup>, 
+                    <a href="https://wanweiwei07.github.io/">Weiwei Wan<sup>1</sup></a>, 
+                    <a href="https://www.roboticmanipulation.org/members2/kensuke-harada/">Kensuke Harada<sup>1,2</sup></a>
+                </p>
+                <p>
+                    <sup>1</sup>Osaka University, <sup>2</sup>National Institute of Advanced Industrial Science and Technology (AIST)
+                </p>
+            </div>
+            <div class="section project">
+                <!-- <span class="teaser">
+                    <img src="media/dynamic/overview.jpg" alt="" />
+				</span> -->
+                <p>This paper addresses the challenge of industrial bin picking using entangled wire harnesses. Wire harnesses are essential in manufacturing but poses challenges in automation due to their complex geometries and propensity for entanglement. Our previous work tackled this issue by proposing a quasi-static pulling motion to separate the entangled wire harnesses. However, it still lacks sufficiency and generalization to various shapes and structures. In this paper, we deploy a dual-arm robot that can grasp, extract and disentangle wire harnesses from dense clutter using dynamic manipulation. The robot can swing to dynamically discard the entangled objects and regrasp to adjust the undesirable grasp pose. To improve the robustness and accuracy of the system, we leverage a closed-loop framework that uses haptic feedback to detect entanglement in real-time and flexibly adjust system parameters. Our bin picking system achieves an overall success rate of 91.2% in the real-world experiments using two different types of long wire harnesses. It demonstrates the effectiveness of our system in handling various wire harnesses for industrial bin picking. </p>
+            </div>
+            
+            <div class="divider"></div>
+            <div class="section project">
+                <h1>Paper</h1>
+                <p>Latest version: <a href="https://arxiv.org/abs/2302.08152">arXiv</a></p>
+                <!-- <p>IEEE Robotics and Automation Letters (RA-L), 2023 / Will be presented at ICRA 2024. </p> -->
+                <a href="http://arxiv.org/abs/2302.08152">
+                    <div class="thumb">
+                        <img src="media/dynamic/thumbnal.jpg" alt="" />
+                    </div>
+                </a>
+
+                <p>
+                    Code is available on <a href="https://github.com/xinyiz0931/tangle">Github</a>.
+                </p>                
+            </div>    
+            <div class="divider"></div>
+            <div class="section project">
+                <h1>Supplementary Video</h1>
+                <div class="section video">
+                    <iframe src="https://www.youtube.com/embed/8Lbp4O2XKJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- <div class="section project">
+                <h1>Demonstration video: emptying a bin using our policy</h1>
+                <div class="section video">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width=640px>
+                        <source src="media/tangle/empty_the_bin_u_bolt.mp4" type="video/mp4">
+                    </video>
+                </div>
+                    
+            </div> -->
+
+
+            <div class="divider"></div>
+            <div class="section project">
+                <h1>Overview of our policy</h1>
+                <p>Real-time force feedback with dynamic and bimanual manipulation. </p>
+                <div class="image">
+                    <img src="media/dynamic/overview.jpg" alt="" />
+                </div>
+            </div>
+
+            
+            <div style="clear:both;"></div>
+            <div class="divider"></div>
+
+            <div class="section project">
+                <h1>Acknowledgements</h1>
+                <p>This work is supported by Toyota Motor Coorporation. </p>
+            </div>
+
+        </div>
+        <div class="footbar"></div>
+    </body>
+</html>
