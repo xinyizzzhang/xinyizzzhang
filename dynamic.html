@@ -44,14 +44,17 @@
                     <img src="media/dynamic/overview.jpg" alt="" />
 				</span> -->
                 <p>This paper addresses the challenge of industrial bin picking using entangled wire harnesses. Wire harnesses are essential in manufacturing but poses challenges in automation due to their complex geometries and propensity for entanglement. Our previous work tackled this issue by proposing a quasi-static pulling motion to separate the entangled wire harnesses. However, it still lacks sufficiency and generalization to various shapes and structures. In this paper, we deploy a dual-arm robot that can grasp, extract and disentangle wire harnesses from dense clutter using dynamic manipulation. The robot can swing to dynamically discard the entangled objects and regrasp to adjust the undesirable grasp pose. To improve the robustness and accuracy of the system, we leverage a closed-loop framework that uses haptic feedback to detect entanglement in real-time and flexibly adjust system parameters. Our bin picking system achieves an overall success rate of 91.2% in the real-world experiments using two different types of long wire harnesses. It demonstrates the effectiveness of our system in handling various wire harnesses for industrial bin picking. </p>
+                <div class="image">
+                    <img src="media/dynamic/overview.jpg" alt="" />
+                </div>
             </div>
             
             <div class="divider"></div>
             <div class="section project">
                 <h1>Paper</h1>
-                <p>Latest version: <a href="">arXiv</a></p>
+                <p>Latest version: <a href="https://arxiv.org/abs/2306.14595">arXiv</a></p>
                 <!-- <p>IEEE Robotics and Automation Letters (RA-L), 2023 / Will be presented at ICRA 2024. </p> -->
-                <a href="">
+                <a href="https://arxiv.org/abs/2306.14595">
                     <div class="thumb">
                         <img src="media/dynamic/thumbnal.jpg" alt="" />
                     </div>
@@ -65,31 +68,102 @@
             <div class="section project">
                 <h1>Supplementary Video</h1>
                 <div class="section video">
-                    <iframe src="https://www.youtube.com/embed/8Lbp4O2XKJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/gtJnKCpMtG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
+            <div class="divider"></div>
 
-            <!-- <div class="section project">
-                <h1>Demonstration video: emptying a bin using our policy</h1>
-                <div class="section video">
-                    <video playsinline="" controls="" muted="" autoplay="" loop="" width=640px>
-                        <source src="media/tangle/empty_the_bin_u_bolt.mp4" type="video/mp4">
+            <div class="section project">
+                <h1>Demo</h1>
+                <p>Picking atttempts using two types of wire harnesses. </p>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_medium_1.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_long_1.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_medium_2.mp4" type="video/mp4">
                     </video>
                 </div>
-                    
-            </div> -->
-
-
-            <div class="divider"></div>
-            <div class="section project">
-                <h1>Overview of our policy</h1>
-                <p>Real-time force feedback with dynamic and bimanual manipulation. </p>
-                <div class="image">
-                    <img src="media/dynamic/overview.jpg" alt="" />
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_long_2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_medium_3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_long_3.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
+
+            <div style="clear:both;"></div>
+            <div class="divider"></div>
+
+            <div class="section project">
+                <h1>Slow motion for swing</h1>
+                <p>Picking atttempts using two types of wire harnesses. </p>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_swing_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_swing_2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="divider"></div>
             
+            <div class="section project">
+                <h1>Video for regrasping motion</h1>
+                <p>Picking atttempts using two types of wire harnesses. </p>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_regrasp_2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="section twocol">
+                    <video playsinline="" controls="" muted="" autoplay="" loop="" width="">
+                        <source src="media/dynamic/v_regrasp_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="divider"></div>
+            
+            <div class="section project">
+                <h1>Force output for predicting the subsequent actions</h1>
+                <p>We use force feedback to determine the actions of transporting, regrasping, swing. </p>
+                <div class="image">
+                    <img src="media/dynamic/monitoring.jpg" alt="" />
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section project">
+                <h1>Poster (Japanese)</h1>
+                <p>This poster is made for ROBOMECH 2023. </p>
+                <div class="image">
+                    <img src="media/dynamic/robomech2023.jpg" alt="" />
+                </div>
+            </div>
+
             <div style="clear:both;"></div>
             <div class="divider"></div>
 
@@ -97,6 +171,7 @@
                 <h1>Acknowledgements</h1>
                 <p>This work is supported by Toyota Motor Coorporation. </p>
             </div>
+
 
         </div>
         <div class="footbar"></div>
