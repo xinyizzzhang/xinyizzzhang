@@ -222,6 +222,7 @@ li {
     width: 100%;
     border: 1px solid; 
     border-color: #191e3f;;
+    margin-bottom: 10px;
 }
 
 .project .image {
